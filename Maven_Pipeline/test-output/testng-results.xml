@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="51" started-at="2021-03-22T22:35:21 CDT" finished-at="2021-03-22T22:35:21 CDT">
+  <suite name="Default suite" duration-ms="42" started-at="2021-04-06T08:07:06 CDT" finished-at="2021-04-06T08:07:06 CDT">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="51" started-at="2021-03-22T22:35:21 CDT" finished-at="2021-03-22T22:35:21 CDT">
-      <class name="Rashedul_Maven.TestMaven">
-        <test-method status="PASS" signature="testMaven()[pri:0, instance:Rashedul_Maven.TestMaven@369f73a2]" name="testMaven" duration-ms="8" started-at="2021-03-22T22:35:21 CDT" finished-at="2021-03-22T22:35:21 CDT">
+    <test name="Default test" duration-ms="42" started-at="2021-04-06T08:07:06 CDT" finished-at="2021-04-06T08:07:06 CDT">
+      <class name="Rashedul_Maven.TestPollSCM">
+        <test-method status="PASS" signature="PollingWithSCM()[pri:0, instance:Rashedul_Maven.TestPollSCM@369f73a2]" name="PollingWithSCM" duration-ms="10" started-at="2021-04-06T08:07:06 CDT" finished-at="2021-04-06T08:07:06 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMaven -->
-      </class> <!-- Rashedul_Maven.TestMaven -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- PollingWithSCM -->
+      </class> <!-- Rashedul_Maven.TestPollSCM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
